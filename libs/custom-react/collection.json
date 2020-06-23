@@ -1,0 +1,17 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "name": "custom-react",
+  "version": "0.0.1",
+  "schematics": {
+    "custom-react": {
+      "factory": "./src/schematics/custom-react/schematic",
+      "schema": "./src/schematics/custom-react/schema.json",
+      "description": "custom-react schematic"
+    },
+    "library": {
+      "factory": "./src/schematics/library/schematic",
+      "schema": "./src/schematics/library/schema.json",
+      "description": "library schematic"
+    }
+  }
+}

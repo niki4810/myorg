@@ -18,5 +18,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "custom-react": {
+      "tags": []
+    },
+    "custom-react-e2e": {
+      "tags": [],
+      "implicitDependencies": ["custom-react"]
+    }
+  }
 }
